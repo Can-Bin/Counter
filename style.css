@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    /* border: 1px solid red; */
+    text-align: center;
+    height: 300px;
+    width: 60%;
+    margin: 10rem auto;
+    padding: 4rem 2rem;
+}
+
+#counter{
+    margin-bottom: 1rem;
+    color: royalblue;
+    font-size: 4rem;
+
+}
+
+#number{
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    text-align: center;
+    font-size: 5rem;
+    border: none;
+    color: crimson;
+    outline: none;
+}
+
+.btn{
+    padding: 0.3rem 0.5rem;
+    background-color:cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    margin: 0.3rem;
+    font-weight: 400px;
+    cursor: pointer;
+    border: none;
+    transition: all .1s ease-in-out;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    outline: 2px solid royalblue;
+    outline-offset: 2px;
+}
+
+.btn:active{
+    background-color: blue;
+}
